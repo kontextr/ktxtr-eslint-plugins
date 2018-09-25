@@ -15,10 +15,18 @@ You can use it by adding `plugins: [ "@ktxtr/{name}" ]` to your `.eslintrc` file
 
 - @ktxtr/eslint-plugin-prettier - auto-fixers and formatters for our prettier2eslint bridge
 
+### Publishing plugins
+
+- Commit all changes, but don't modify package.json version
+- Run `npm run publish` and select appropriate version change
+- Lerna will increment the version, create git tags & push them and finally publish the package on npmjs
+
 ### Creating new plugins
 
 Create a new directory inside this repository with the same structure as our template - `eslint-plugin-prettier`.
-Use lerna for publishing (See [lernajs.io](https://lernajs.io/)).
+We use lerna for publishing (See [lernajs.io](https://lernajs.io/)) - commit all your changes and mark the initial
+package version as `0.0.0`. Once you run `npm run publish` lerna will prompt you for a version bump - select either
+`0.0.1` (unstable packages) or `1.0.0` (stable enough).
 
 ### Creating new rules
 
