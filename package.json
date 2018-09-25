@@ -1,0 +1,10 @@
+{
+  "name": "ktxtr-eslint-plugins",
+  "version": "1.0.0",
+  "author": "IgnusG (aka JJ)",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.4.0"
+  }
+}
