@@ -1,6 +1,6 @@
 {
   "name": "@ktxtr/eslint-plugin-prettier",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Prettier2eslint bridge designed by (& for) kontextR",
   "publishConfig": {
     "access": "public"
