@@ -1,0 +1,28 @@
+{
+  "name": "@ktxtr/eslint-plugin-prettier",
+  "version": "0.0.0",
+  "description": "Prettier2eslint bridge designed by (& for) kontextR",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "prettier",
+    "ktxtr",
+    "kontextR"
+  ],
+  "author": "IgnusG (aka JJ)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kontextr/ktxtr-eslint-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kontextr/ktxtr-eslint-plugins/issues"
+  },
+  "homepage": "https://github.com/kontextr/ktxtr-eslint-plugins#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.6.0"
+  }
+}
